@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[ru_RU]=
+Comment=
+Exec=~/.firefox-mis.sh
+GenericName[ru_RU]=firefox для МИС БАРС
+GenericName=firefox для МИС БАРС
+Icon=internet-web-browser
+MimeType=
+Name[ru_RU]=firefox-mis
+Name=firefox-mis
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
