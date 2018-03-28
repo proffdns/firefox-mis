@@ -4,4 +4,4 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && apt-get install -y firefox-esr
 
-ENTRYPOINT ["firefox"]
+ENTRYPOINT ["/usr/bin/firefox-esr"]
