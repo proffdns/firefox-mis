@@ -3,7 +3,7 @@ MAINTAINER proffdns@mail.ru
 #
 ENV DEBIAN_FRONTEND noninteractive
 ENV URL http://192.168.101.102/mis
-ENV TZ=Europe/Saratov
+ENV TZ Europe/Saratov
 #
 RUN apt-get update && apt-get install -y --no-install-recommends firefox-esr
 
