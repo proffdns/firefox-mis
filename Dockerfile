@@ -10,4 +10,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends firefox-esr
 #VOLUME ["/sys/fs/cgroup"]
 #VOLUME ["/run"]
 
-ENTRYPOINT ["/usr/bin/firefox-esr --new-instance ${URL}"]
+ENTRYPOINT ["/usr/bin/firefox-esr -url ${URL}"]
