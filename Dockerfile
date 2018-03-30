@@ -4,7 +4,7 @@ MAINTAINER proffdns@mail.ru
 ENV DEBIAN_FRONTEND noninteractive
 ENV TZ Europe/Saratov
 #
-RUN locale-gen en_RU en_RU.UTF-8 && dpkg-reconfigure locales
+RUN locale-gen ru_RU ru_RU.UTF-8 && dpkg-reconfigure locales
 #
 RUN apt-get update \
   && apt-get install -y --no-install-recommends firefox-esr \
