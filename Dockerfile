@@ -1,5 +1,5 @@
 FROM debian:latest
-MAINTAINER proffdns@mail.ru
+MAINTAINER Denis Malyshev <proffdns@mail.ru>
 #
 ENV DEBIAN_FRONTEND noninteractive
 #
