@@ -10,4 +10,4 @@ ADD linux-amd64_deb.tgz /tmp/
 #
 RUN /tmp/linux-amd64_deb/./install.sh
 #
-#ENTRYPOINT ["/usr/bin/firefox-esr"]
+ENTRYPOINT ["/usr/bin/firefox-esr"]
