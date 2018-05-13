@@ -5,5 +5,7 @@ ENV DEBIAN_FRONTEND noninteractive
 #
 RUN apt-get update && apt-get install -y --no-install-recommends firefox-esr \
   && rm -rf /var/lib/apt/lists/* /var/cache/apt/*
-
-ENTRYPOINT ["/usr/bin/firefox-esr"]
+#
+ADD linux-amd64_deb.tgz /tmp/
+#
+#ENTRYPOINT ["/usr/bin/firefox-esr"]
